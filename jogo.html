@@ -31,6 +31,24 @@ Escola">
 
 <!--conteudo-->
 
+<!-- INSIRA ENTRE O CABEÇALHO E O RODAPÉ DO SEU JOGOS.HTML -->
+<main class="area-central-jogo">
+    <div class="game-container">
+        <div class="hud">
+            <span>PONTOS: <strong id="score">0</strong></span>
+            <span>VELOCIDADE: <strong id="speed">0</strong> km/h</span>
+        </div>
+        
+        <canvas id="enduroCanvas" width="400" height="500"></canvas>
+        
+        <div class="controles-info">
+            Use as setas <strong>⬅️</strong> e <strong>➡️</strong> para desviar | <strong>⬆️</strong> para acelerar
+        </div>
+        <button id="btnStart" class="btn-jogar">INICIAR CORRIDA</button>
+    </div>
+</main>
+
+
 
 
 
@@ -50,4 +68,6 @@ Política de Privacidade | Proteção de dados | Encarregado de dados</p>
 <p> </p>
 </footer>
 </body>
+<!-- Certifique-se de chamar o script antes de fechar a tag </body> -->
+<script src="script.js"></script>
 </html>
